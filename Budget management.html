@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)file:///F:/masters%20docs/JavaScript/Project/index_2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> <title>Budget management</title>
+<script src="./Budget management_files/script1.js.download"></script>
+<link rel="stylesheet" href="./Budget management_files/style1.css">
+</head>
+<body>
+<div class="mod1">
+	<div class="center">
+		<div class="border_1">
+			Available budget in September
+			<div id="total_budget">+45657</div><br><br>
+			<div class="income_1"> income
+			<div id="curr_income"> 0</div>
+			</div><br>
+			<div class="expense_1">expense 
+				<div id="curr_expense">0</div>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<select class="budget_type">
+  <option value="inc">+</option>
+  <option value="exp">-</option>
+</select> 
+<input type="text" placeholder="add description" class="desc">&nbsp;&nbsp;<input type="number" placeholder="0" class="val">
+<button class="tickmark">clickme</button>
+<p id="demo"></p>
+
+<br><br>
+<div class="outer_table">
+<table>
+<tbody><tr>
+	<th>Income</th>
+	<th>Expense</th>
+</tr>
+<tr>
+	<td>
+	<div class="clear_fix" id="income_table">
+	<div class="income_list">
+	<!--
+		<tr>
+			<td>
+				<div class = "item_desc">salary</div>
+			</td>
+			<td>
+				<div class = "item_val">+2000</div>
+			</td>
+			<td>
+				<div class = "item_delete">
+					<button><i class = "btn_outline"></i></button>
+				</div>
+			</td>
+		</tr>
+		-->
+		<table><tbody><tr><td><div class="item_desc" id="income_0">aa</div></td><td><div class="item_val">+ 111.00</div></td><td><div class="item_delete"><button><i class="btn_outline"></i></button></div></td></tr></tbody></table><table><tbody><tr><td><div class="item_desc" id="income_1">aa</div></td><td><div class="item_val">+ 111.00</div></td><td><div class="item_delete"><button><i class="btn_outline"></i></button></div></td></tr></tbody></table><table><tbody><tr><td><div class="item_desc" id="income_2">aa</div></td><td><div class="item_val">+ 111.00</div></td><td><div class="item_delete"><button><i class="btn_outline"></i></button></div></td></tr></tbody></table><table><tbody><tr><td><div class="item_desc" id="income_3">aa</div></td><td><div class="item_val">+ 111.00</div></td><td><div class="item_delete"><button><i class="btn_outline"></i></button></div></td></tr></tbody></table></div><table>
+	
+	</table>
+	</div>
+	</td>
+	<td>
+		<div class="clear_fix" id="expense_table">
+		<div class="expenses_list">
+		<!--
+		<tr>
+			<td>
+				<div class = "item_desc">buy car</div>
+			</td>
+			<td>
+				<div class = "item_val">-1200</div>
+			</td>
+			<td>
+				<div class = "item_percent">(25%)</div>
+			</td>
+			<td>
+				<div class = "item_delete">
+					<button ><i class = "btn_outline"></i></button>
+				</div>
+			</td>
+		</tr>
+		-->
+		</div><table> 
+		
+	</table>
+	</div>
+	</td>
+</tr>
+</tbody></table>
+</div>
+
+
+</body></html>

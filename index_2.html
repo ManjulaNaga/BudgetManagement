@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head> <title>Budget management</title>
+<script src= "script1.js"></script>
+<link rel="stylesheet" href ="style1.css"/>
+</head>
+<body>
+<div class='mod1'>
+	<div class = 'center'>
+		<div class = "border_1">
+			Available budget in 
+			<div class= "curr_month">January</div>
+			<div class = "total_budget">0</div><br><br>
+				<div class = "income_1"> INCOME
+				&nbsp&nbsp&nbsp <span id ="curr_income"> 0</span>
+				</div><br>
+			<div class ="expense_1">EXPENSES 
+				&nbsp&nbsp&nbsp <span id ="curr_expense">0</span>&nbsp&nbsp&nbsp <span class ="tot_percent"></span>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<select class="budget_type">
+  <option value="inc"  >+</option>
+  <option value="exp" >-</option>
+</select> 
+<input  type = "text" placeholder="add description" class ="desc"/>&nbsp&nbsp<input type = "number" placeholder ="0" class="val"/>
+<button class ="tickmark">clickme</button>
+<br><br>
+<div class = "outer_table">
+<table>
+<tr>
+	<th>Income</th>
+	<th>Expense</th>
+</tr>
+<tr>
+	<td>
+	<div class ="clear_fix" id = "income_table">
+	<div class = "income_list">
+	<!--
+		<tr>
+			<td>
+				<div class = "item_desc">salary</div>
+			</td>
+			<td>
+				<div class = "item_val">+2000</div>
+			</td>
+			<td>
+				<div class = "item_delete">
+					<button><i class = "hiddenButton"></i></button>
+				</div>
+			</td>
+		</tr>
+		-->
+		</div>
+	</div>
+	</td>
+	<td>
+		<div class ="clear_fix" id = "expense_table">
+		<div class= "expenses_list">
+		<!--
+		<tr>
+			<td>
+				<div class = "item_desc">buy car</div>
+			</td>
+			<td>
+				<div class = "item_val">-1200</div>
+			</td>
+			<td>
+				<div class = "item_percent">(25%)</div>
+			</td>
+			<td>
+				<div class = "item_delete">
+					<button ><i class = "hiddenButton"></i></button>
+				</div>
+			</td>
+		</tr>
+		-->
+		</div>
+	</div>
+	</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
